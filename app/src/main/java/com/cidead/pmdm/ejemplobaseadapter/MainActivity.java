@@ -34,16 +34,27 @@ public class MainActivity extends AppCompatActivity {
         // En este caso, un ArrayList de objetos DatosPersonales
         // Esto es una mala práctica, deberíamos hacerlo en otra clase
         ArrayList<DatosPersonales> misDatos = new ArrayList<>();
+        misDatos.add(new DatosPersonales("Juan", "Pérez"));
+        misDatos.add(new DatosPersonales("Ana", "Gómez"));
+        misDatos.add(new DatosPersonales("Carlos", "López"));
+        misDatos.add(new DatosPersonales("María", "Martínez"));
+        misDatos.add(new DatosPersonales("Laura", "Fernández"));
+        misDatos.add(new DatosPersonales("Luis", "Torres"));
+        misDatos.add(new DatosPersonales("Sofía", "Ramírez"));
+        misDatos.add(new DatosPersonales("Javier", "Hernández"));
+        misDatos.add(new DatosPersonales("Elena", "Morales"));
+        misDatos.add(new DatosPersonales("Diego", "Cruz"));
         misDatos.add(new DatosPersonales("Miguel","González"));
-        misDatos.add(new DatosPersonales("Pepito","Grillo"));
-        misDatos.add(new DatosPersonales("Pepito","Grillo"));
-        misDatos.add(new DatosPersonales("Miguel","González"));
-        misDatos.add(new DatosPersonales("Pepito","Grillo"));
-        misDatos.add(new DatosPersonales("Miguel","González"));
-        misDatos.add(new DatosPersonales("Pepito","Grillo"));
-        misDatos.add(new DatosPersonales("Miguel","González"));
-        misDatos.add(new DatosPersonales("Pepito","Grillo"));
-        misDatos.add(new DatosPersonales("Miguel","González"));
+        misDatos.add(new DatosPersonales("Juan", "Pérez"));
+        misDatos.add(new DatosPersonales("Ana", "Gómez"));
+        misDatos.add(new DatosPersonales("Carlos", "López"));
+        misDatos.add(new DatosPersonales("María", "Martínez"));
+        misDatos.add(new DatosPersonales("Laura", "Fernández"));
+        misDatos.add(new DatosPersonales("Luis", "Torres"));
+        misDatos.add(new DatosPersonales("Sofía", "Ramírez"));
+        misDatos.add(new DatosPersonales("Javier", "Hernández"));
+        misDatos.add(new DatosPersonales("Elena", "Morales"));
+        misDatos.add(new DatosPersonales("Diego", "Cruz"));
 
         // Instancia el ListView que hemos definido en la UI
         ListView lista = findViewById(R.id.lista);
